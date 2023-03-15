@@ -1,6 +1,14 @@
 {
   "name": "github-explorer",
   "displayName": "github-explorer",
+  "android": {
+    "package": "com.github-explorer",
+    "versionCode": "1.0.0"
+  },
+  "ios": {
+    "bundleIndetifier": "com.github-explorer",
+    "buildNumber": "1.0.0"
+  },
   "expo": {
     "name": "github-explorer",
     "slug": "github-explorer",
@@ -8,17 +16,20 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "splash":{
-      "image":"./assets/splash.png"
+    "splash": {
+      "image": "./assets/splash.png"
     },
-    "icon":"./assets/icon.png",
-    "ios":{
-      "bundleIndetifier":"com.github-explorer",
-      "buildNumber":"1.0.0"
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.guilherme.githubexplorer"
     },
-    "android":{
-      "package":"com.github-explorer",
-      "versionCode":"1.0.0"
+    "extra": {
+      "eas": {
+        "projectId": "36236432-865c-4d92-83f5-2e9276c39e62"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.guilherme.githubexplrer"
     }
   }
 }
