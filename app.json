@@ -11,6 +11,14 @@
     "splash":{
       "image":"./assets/splash.png"
     },
-    "icon":"./assets/icon.png"
+    "icon":"./assets/icon.png",
+    "ios":{
+      "bundleIndetifier":"com.github-explorer",
+      "buildNumber":"1.0.0"
+    },
+    "android":{
+      "package":"com.github-explorer",
+      "versionCode":"1.0.0"
+    }
   }
 }
